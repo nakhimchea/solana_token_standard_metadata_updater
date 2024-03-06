@@ -1,0 +1,32 @@
+{
+  "name": "token_metadata_updater",
+  "version": "1.0.0",
+  "description": "March 2024 Solana Token Metadata Updater",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nakhimchea/solana_token_standard_metadata_updater.git"
+  },
+  "keywords": [
+    "Solana",
+    "SPL",
+    "Metadata",
+    "Token",
+    "2024"
+  ],
+  "author": "Nakhim Chea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nakhimchea/solana_token_standard_metadata_updater/issues"
+  },
+  "homepage": "https://github.com/nakhimchea/solana_token_standard_metadata_updater#readme",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@solana/web3.js": "^1.90.1"
+  }
+}
